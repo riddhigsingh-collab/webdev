@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Positions</title>
+    <style>
+    .body{
+    position:relative;
+    }
+   .top-left {
+   position: absolute;
+   top: 8px;
+   left: 16px;
+   font-size: 20px;
+   }
+   .top-right {
+   position: absolute;
+   top: 8px;
+   right: 16px;
+   font-size: 20px;
+   }
+   .center{
+    position:absolute;
+    top:50%;
+    left:50%;
+   }
+   .top-center{
+    position:absolute;
+    top: 10px;
+    left: 50%;
+   }
+   .center-left{
+    position:absolute;
+    top: 50%;
+    left: 10px;
+   }
+   .center-right{
+    position:absolute;
+     top: 50%;
+    right: 10px;
+   }
+   .bottom-center{
+    position:absolute;
+     bottom: 10px;
+    left: 50%;
+   }
+   .bottom-left{
+    position:absolute;
+     bottom: 10px;
+    left: 10px;
+   }
+   .bottom-right{
+    position:absolute;
+    bottom: 10px;
+    right: 10px;
+
+   }
+
+img { 
+  width: 100%;
+  height: auto;
+}
+.name {
+    position: fixed;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+    </style>
+</head>
+<body>
+    <div class="body">
+    <img src="globe.jpg" alt="">
+    <div class="name top-left">Riddhi</div>
+    <div class="name top-center" >Riddhi</div>
+    <div class="name top-right" >Riddhi</div>
+    <div class="name center-left" >Riddhi</div>
+    <div class="name center">Riddhi</div>
+    <div class="name center-right">Riddhi</div>
+    <div class="name bottom-left">Riddhi</div>
+    <div class="name bottom-center">Riddhi</div>
+    <div class="name bottom-right">Riddhi</div>
+
+    </div>
+    
+</body>
+</html>
