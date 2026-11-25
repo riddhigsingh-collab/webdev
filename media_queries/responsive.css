@@ -1,0 +1,18 @@
+div{
+    width:400px;
+    height:400px;
+    background-color:skyblue;
+    border:2px solid black;
+}
+@media (min-width:600px){
+    div{
+        background-color:yellow;
+    }
+}
+    
+
+@media (min-width:768px){
+    div{
+        background-color:crimson;
+    }
+}
